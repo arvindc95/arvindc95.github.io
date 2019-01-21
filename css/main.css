@@ -1438,7 +1438,7 @@ button:focus {
 }
 
 .single-team .team-details {
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   text-align: center;
   -webkit-transition: 0.5s;
@@ -1451,6 +1451,24 @@ button:focus {
   font-size: 18px;
   font-weight: 500;
   color: #5e696c;
+}
+
+@media (min-width: 974px) {
+  .team-title-arv {
+    margin-bottom: 5px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #5e696c;
+  }
+}
+
+@media (max-width: 974px) {
+  .team-title-arv {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5e696c;
+  }
 }
 
 .single-team .team-details p {
